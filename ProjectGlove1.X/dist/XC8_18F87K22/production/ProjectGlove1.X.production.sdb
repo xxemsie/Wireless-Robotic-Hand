@@ -1,0 +1,156 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K20 ]
+[d frameptr 4065 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"27 C:\Users\User\OneDrive\Documents\College\Sligo\3rdYear\Project\ProjectGlove1.X\interrupts.c
+[v _high_isr high_isr `IIH(v  1 e 1 0 ]
+"67
+[v _low_isr low_isr `IIL(v  1 e 1 0 ]
+"47 C:\Users\User\OneDrive\Documents\College\Sligo\3rdYear\Project\ProjectGlove1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"24 C:\Users\User\OneDrive\Documents\College\Sligo\3rdYear\Project\ProjectGlove1.X\system.c
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+"37 C:\Users\User\OneDrive\Documents\College\Sligo\3rdYear\Project\ProjectGlove1.X\user.c
+[v _InitApp InitApp `(v  1 e 1 0 ]
+"2254 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f45k20.h
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2476
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2698
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4221
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"4245
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4257
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"5308
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"7352
+[v _ACQT0 ACQT0 `VEb  1 e 0 @32259 ]
+"7355
+[v _ACQT1 ACQT1 `VEb  1 e 0 @32260 ]
+"7358
+[v _ACQT2 ACQT2 `VEb  1 e 0 @32261 ]
+"7361
+[v _ADCS0 ADCS0 `VEb  1 e 0 @32256 ]
+"7364
+[v _ADCS1 ADCS1 `VEb  1 e 0 @32257 ]
+"7367
+[v _ADCS2 ADCS2 `VEb  1 e 0 @32258 ]
+"7376
+[v _ADFM ADFM `VEb  1 e 0 @32263 ]
+"7388
+[v _ADON ADON `VEb  1 e 0 @32272 ]
+"7436
+[v _ANS10 ANS10 `VEb  1 e 0 @31738 ]
+"7439
+[v _ANS11 ANS11 `VEb  1 e 0 @31739 ]
+"7442
+[v _ANS12 ANS12 `VEb  1 e 0 @31740 ]
+"7463
+[v _ANS8 ANS8 `VEb  1 e 0 @31736 ]
+"7466
+[v _ANS9 ANS9 `VEb  1 e 0 @31737 ]
+"7487
+[v _BRG16 BRG16 `VEb  1 e 0 @32195 ]
+"7490
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"7658
+[v _CHS0 CHS0 `VEb  1 e 0 @32274 ]
+"7661
+[v _CHS1 CHS1 `VEb  1 e 0 @32275 ]
+"7664
+[v _CHS2 CHS2 `VEb  1 e 0 @32276 ]
+"7667
+[v _CHS3 CHS3 `VEb  1 e 0 @32277 ]
+"7853
+[v _GO GO `VEb  1 e 0 @32273 ]
+"7991
+[v _IRCF0 IRCF0 `VEb  1 e 0 @32412 ]
+"7994
+[v _IRCF1 IRCF1 `VEb  1 e 0 @32413 ]
+"7997
+[v _IRCF2 IRCF2 `VEb  1 e 0 @32414 ]
+"8543
+[v _RB0 RB0 `VEb  1 e 0 @31752 ]
+"8546
+[v _RB1 RB1 `VEb  1 e 0 @31753 ]
+"8549
+[v _RB2 RB2 `VEb  1 e 0 @31754 ]
+"8552
+[v _RB3 RB3 `VEb  1 e 0 @31755 ]
+"8555
+[v _RB4 RB4 `VEb  1 e 0 @31756 ]
+"8789
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"8867
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"9185
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"9194
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"9206
+[v _VCFG0 VCFG0 `VEb  1 e 0 @32268 ]
+"9212
+[v _VCFG1 VCFG1 `VEb  1 e 0 @32269 ]
+"37 C:\Users\User\OneDrive\Documents\College\Sligo\3rdYear\Project\ProjectGlove1.X\main.c
+[v _finger1_prev finger1_prev `uc  1 e 1 0 ]
+"38
+[v _finger2_prev finger2_prev `uc  1 e 1 0 ]
+"39
+[v _finger3_prev finger3_prev `uc  1 e 1 0 ]
+"40
+[v _finger4_prev finger4_prev `uc  1 e 1 0 ]
+"41
+[v _finger5_prev finger5_prev `uc  1 e 1 0 ]
+"47
+[v _main main `(v  1 e 1 0 ]
+{
+"250
+} 0
+"37 C:\Users\User\OneDrive\Documents\College\Sligo\3rdYear\Project\ProjectGlove1.X\user.c
+[v _InitApp InitApp `(v  1 e 1 0 ]
+{
+"79
+} 0
+"24 C:\Users\User\OneDrive\Documents\College\Sligo\3rdYear\Project\ProjectGlove1.X\system.c
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+{
+"31
+} 0
+"67 C:\Users\User\OneDrive\Documents\College\Sligo\3rdYear\Project\ProjectGlove1.X\interrupts.c
+[v _low_isr low_isr `IIL(v  1 e 1 0 ]
+{
+"102
+} 0
+"27
+[v _high_isr high_isr `IIH(v  1 e 1 0 ]
+{
+"63
+} 0
